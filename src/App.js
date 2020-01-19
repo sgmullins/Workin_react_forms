@@ -1,9 +1,15 @@
-import React, { useState } from "react";
+import React from "react";
 import ReactDOM from "react-dom";
-import { Router, Link } from "@reach/router";
+import LoginForm from "./LoginForm";
+import RegisterForm from "./RegisterForm";
 
 const App = () => {
-  return <div></div>;
+  return (
+    <div>
+      <LoginForm />
+      <RegisterForm />
+    </div>
+  );
 };
 
 ReactDOM.render(<App />, document.getElementById("root"));

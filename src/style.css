@@ -1,0 +1,77 @@
+body {
+  color: #707070;
+  font-family: "Oswald", "Open Sans";
+  letter-spacing: 1px;
+}
+.main > h1 {
+  margin: 5px;
+}
+.main > h4 {
+  margin: 5px;
+  font-size: 18px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main {
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+
+.heavyFont {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: left;
+}
+p.heavyFont {
+  margin-bottom: 0;
+}
+
+.formInputs {
+  text-align: center;
+  background-color: #d6e1eb;
+  padding: 0 50px 50px;
+  box-shadow: 7px 8px 8px 0px rgba(135, 132, 135, 0.62);
+}
+.formInputs > h4 {
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+
+.joinButton {
+  font-weight: "semi-bold";
+  color: white;
+}
+
+.linkClass {
+  color: #289cd6;
+  text-decoration: none;
+}
+.terms {
+  margin: 30px 0;
+}
+.redirectLinks {
+  margin: 45px 0;
+}
+.redirectLinks > p {
+  margin-bottom: 5px;
+}
+.redirectLinks,
+.terms {
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: normal;
+}
+.pwField {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.showPW {
+  text-decoration: none;
+}

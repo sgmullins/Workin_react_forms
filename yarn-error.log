@@ -1,0 +1,64 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add @material-ui/icons
+
+PATH: 
+  C:\Users\Sgmullins\AppData\Roaming\npm\node_modules\npm\node_modules\npm-lifecycle\node-gyp-bin;C:\Users\Sgmullins\Desktop\code\Projects\WorkIN_React_Designs\node_modules\.bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Sgmullins\bin;C:\Program Files (x86)\Intel\iCLS Client;C:\Program Files\Intel\iCLS Client;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH;C:\OpenSSL-Win64\bin;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Program Files\Git\cmd;C:\Program Files\PostgreSQL\12\bin;C:\Program Files (x86)\Yarn\bin;C:\Program Files\nodejs;C:\ProgramData\chocolatey\bin;C:\Users\Sgmullins\AppData\Local\Programs\Python\Python38\Scripts;C:\Program Files (x86)\Sophos\Sophos SSL VPN Client\bin;C:\Users\Sgmullins\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Program Files\OpenSSL-Win64;C:\Program Files\openssl;C:\Users\Sgmullins\AppData\Local\Microsoft\WindowsApps;C:\Users\Sgmullins\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\heroku\bin;C:\Users\Sgmullins\AppData\Local\Yarn\bin;C:\Users\Sgmullins\AppData\Roaming\npm
+
+Yarn version: 
+  1.21.1
+
+Node version: 
+  12.14.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\Sgmullins\Desktop\code\Projects\WorkIN_React_Designs\node_modules\deasync\bin\win32-x64-node-12\deasync.node'
+
+npm manifest: 
+  {
+    "name": "NameName",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "dev": "parcel src/index.html",
+      "format": "prettier \"src/**/*.{js,html}\" --write",
+      "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "@babel/core": "^7.8.3",
+      "@babel/plugin-proposal-class-properties": "^7.8.3",
+      "@babel/preset-env": "^7.8.3",
+      "@babel/preset-react": "^7.8.3",
+      "babel-eslint": "^10.0.3",
+      "cross-env": "^6.0.3",
+      "eslint": "^6.8.0",
+      "eslint-config-prettier": "^6.9.0",
+      "eslint-plugin-import": "^2.20.0",
+      "eslint-plugin-jsx-a11y": "^6.2.3",
+      "eslint-plugin-react": "^7.18.0",
+      "parcel-bundler": "^1.12.4",
+      "prettier": "^1.19.1"
+    },
+    "browserslist": [
+      "last 2 Chrome versions"
+    ],
+    "dependencies": {
+      "@reach/router": "^1.2.1",
+      "material-ui": "^0.20.2",
+      "react": "^16.12.0",
+      "react-dom": "^16.12.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
